@@ -218,11 +218,12 @@ end
   % disp(PATCH_LOCATION(2))
   % disp(PATCH_SIZE(1))
   % disp(PATCH_SIZE(2))
-  % disp(PATCH_LOCATION(2)-py)
-  % disp(PATCH_LOCATION(2)+PATCH_SIZE(2)-1+py)
+  %disp(PATCH_LOCATION)
+  %disp(PATCH_LOCATION(2)-py)
+  %disp(PATCH_LOCATION(2)+PATCH_SIZE(2)-1+py)
   % disp(PATCH_LOCATION(1)-px)
   % disp(PATCH_LOCATION(1)+PATCH_SIZE(1)-1+px)
-  disp(size(obs_im))
+  %disp(size(obs_im))
 
   obs_im = obs_im_all(PATCH_LOCATION(2)-py:PATCH_LOCATION(2)+PATCH_SIZE(2)-1+py,PATCH_LOCATION(1)-px:PATCH_LOCATION(1)+PATCH_SIZE(1)-1+px,:);
 
@@ -832,6 +833,10 @@ save(char(CONFIG_FNAME),'ensemble','dimensions','obs_im_recon','obs_im_orig','ob
 if strcmp(IMAGE_RECONSTRUCTION,'lucy')
 
   %%% Run RL script
+  %LUCY_ITS = 40
+  %SCALE_OFFSET = 0
+  %KERNEL_THRESHOLD = 7
+  disp(KERNEL_THRESHOLD)
   [deblurred_im,kernel_out] = fiddle_lucy3(char(CONFIG_FNAME),LUCY_ITS,1,SCALE_OFFSET,KERNEL_THRESHOLD);
   
 else
