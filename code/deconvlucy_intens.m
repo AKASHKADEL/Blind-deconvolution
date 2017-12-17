@@ -8,6 +8,7 @@ function out = deconvlucy_intens(in,k,its)
   q = rgb2ntsc(in);
   
   % deblur only Y channel
+  disp("sdfd")
   q2 = deconvlucy(q(:,:,1),k,its);
   
   % make new YIQ image

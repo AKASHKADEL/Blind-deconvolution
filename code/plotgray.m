@@ -17,7 +17,7 @@ function plotgray(tmp_name)
     load(['tmp_',tmp_name]);
   end
   
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ADDED BY ME (below 1 line) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ADDED BY ME (below 1 line) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   SYNTHETIC = 0
   
   if (SYNTHETIC==1)
