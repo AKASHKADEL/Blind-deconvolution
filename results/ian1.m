@@ -9,6 +9,7 @@ clear;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % User selected region (xmin xmax ymin ymax)
 AXIS = [323   537   205   498];
+%AXIS = [650   850   600   800];
 % max size of blur kernel
 BLUR_KERNEL_SIZE = 35;
 % inital value of kernel
@@ -79,6 +80,7 @@ NUM_SCALES = ceil(-log(3/BLUR_KERNEL_SIZE)/log(sqrt(2)))+1;
 if ~AUTOMATIC_PATCH
   PATCH_SIZE = [AXIS(2)-AXIS(1) AXIS(4)-AXIS(3)];
   PATCH_LOCATION = [AXIS(1) AXIS(3)];
+  disp(PATCH_LOCATION)
 else
   PATCH_SIZE = [256 256];
 end
