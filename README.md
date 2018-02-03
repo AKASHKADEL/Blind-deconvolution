@@ -1,6 +1,6 @@
 # Blind-deconvolution
 
-Blind Deconvolution is a proces which unblurs an image using an unknown blur kernel. Much of my work relates to this [paper](https://cs.nyu.edu/~fergus/papers/deblur_fergus.pdf) by Rob Fergus. 
+Blind Deconvolution is a proces which unblurs an image using an unknown blur kernel. Much of my work relates to this [paper](https://cs.nyu.edu/~fergus/papers/deblur_fergus.pdf) by Rob Fergus, and its implementation
 
 To extract the sharpened image, we first need to compute the blur kernel. The latter is estimated using Maximum a posteriori (MAP) algorithm, while assuming an exponential prior distribution for the blur kernel values. Ideally, the posterior distribution is first computed after which MAP algorithm is used. 
 
