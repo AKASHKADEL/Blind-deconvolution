@@ -18,6 +18,8 @@ Few results are shown below:
   <img src='results/best_results/ian1_best.jpg' height="225px">
 </div>
 
+You can also sharpen a part of the image by just selecting that particular image area and throwing it as an input to the algorithm. For example, consider the below blurred image and its result. Here, I am just trying to sharpen the bottle and not the backgorund.
+
 <div align='center'>
   <img src='images/bottle.jpg' height="225px">
   <img src='results/best_results/bottle_best.png' height="225px">
