@@ -19,8 +19,8 @@ Few results are shown below:
 </div>
 
 <div align='center'>
-  <img src='images/bottle.jpg' height="225px" width="200px">
-  <img src='results/best_results/bottle_best.png' height="225px" width="200px">
+  <img src='images/bottle.jpg' height="225px">
+  <img src='results/best_results/bottle_best.png' height="225px">
 </div>
 
 # Steps to run the code on any blurred image:
