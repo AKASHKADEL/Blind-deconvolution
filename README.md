@@ -18,7 +18,9 @@ Few results are shown below:
   <img src='results/best_results/ian1_best.jpg' height="225px">
 </div>
 
+
 You can also sharpen a part of the image by just selecting that particular image area and throwing it as an input to the algorithm. For example, consider the below blurred image and its result. Here, I am just trying to sharpen the bottle and not the backgorund.
+
 
 <div align='center'>
   <img src='images/bottle.jpg' height="225px">
@@ -36,3 +38,10 @@ You can also sharpen a part of the image by just selecting that particular image
 - When it has finished the final results may be viewed with the same ’plotgray(<script_name>)’
 command. If called with an additional flag parameter (’plotgray(<script_name>,1)’) it will
 save the kernel and deblurred image out to disk
+
+# Reference:
+
+- Blind deconvolution basics: https://en.wikipedia.org/wiki/Blind_deconvolution
+- Rob Fergus's Blind deconvolution paper: https://dl.acm.org/citation.cfm?doid=1141911.1141956
+- Richardson Lucy algorithm (non blind decon): https://www.isid.ac.in/~deepayan/SC2010/project-sub/RLA/report.pdf
+- MAP Estimators: https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/ppt/22-MAP.pdf
