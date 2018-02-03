@@ -10,7 +10,9 @@ Few results are shown below:
 
 <div align='center'>
   <img src='images/family.jpg' height="225px">
+  <img src='results/best_results/family_k_35_it_20_num_scales_7_reg_1.png' height="225px">
 </div>
+
 
 # Steps to run the code on any blurred image:
 
