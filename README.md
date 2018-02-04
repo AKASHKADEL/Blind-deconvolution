@@ -41,7 +41,7 @@ save the kernel and deblurred image out to disk
 
 # Reference:
 
-- Link to my final paper: https://drive.google.com/file/d/1jS9_9HLsTxP52-DqRaqLdmpyBjP_aiC7/view
+- Link to my final paper: [Blind deconvolution](https://drive.google.com/file/d/1jS9_9HLsTxP52-DqRaqLdmpyBjP_aiC7/view)
 - Blind deconvolution basics: https://en.wikipedia.org/wiki/Blind_deconvolution
 - Rob Fergus's Blind deconvolution paper: https://dl.acm.org/citation.cfm?doid=1141911.1141956
 - Richardson Lucy algorithm (non blind decon): https://www.isid.ac.in/~deepayan/SC2010/project-sub/RLA/report.pdf
